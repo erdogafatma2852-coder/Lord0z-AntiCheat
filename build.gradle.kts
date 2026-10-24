@@ -1,3 +1,4 @@
+
 plugins {
     java
 }
@@ -9,7 +10,8 @@ repositories {
     maven("https://repo.papermc.io/repository/maven-public/")
 }
 
-compileOnly("io.papermc.paper:paper-api:26.2.build.+")
+dependencies {
+    compileOnly("io.papermc.paper:paper-api:26.2.build.+")
 }
 
 java {
