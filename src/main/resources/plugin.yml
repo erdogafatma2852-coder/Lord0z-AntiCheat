@@ -1,0 +1,15 @@
+name: Lord0zAntiCHEAT
+version: '0.1.0'
+main: me.lord0z.anticheat.Lord0zAntiCHEAT
+description: Lord0z AntiCHEAT
+author: Lord0z
+api-version: '26.2'
+commands:
+  lac:
+    description: Anti-cheat yönetim komutu
+    usage: /lac
+permissions:
+  lord0zanticheat.admin:
+    default: op
+  lord0zanticheat.alerts:
+    default: op
